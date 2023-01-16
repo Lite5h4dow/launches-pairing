@@ -1,26 +1,26 @@
-.header{
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
 }
 
-.content{
+.content {
   color: rgb(209 213 219);
   gap: 5px;
-  display:flex;
-  flex:1;
+  display: flex;
+  flex: 1;
   flex-direction: column;
 }
 
-.patch{
-  display:flex;
+.patch {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-content:space-around;
+  align-content: space-around;
 }
 
-.patch img{
+.patch img {
   object-fit: cover;
   width: 5em;
   height: 5em;
@@ -30,20 +30,20 @@
   border: rgb(209 213 219) solid 2px;
 }
 
-.details{
+.details {
   display: flex;
-  flex:1;
+  flex: 1;
   text-overflow: ellipsis;
 }
 
-.secondary{
+.secondary {
   font-size: 10px;
   color: rgb(107 114 128);
   vertical-align: center;
   font-weight: bold;
 }
 
-.primary{
+.primary {
   font-size: 14px;
   color: rgb(209 213 219);
   vertical-align: center;
@@ -51,10 +51,10 @@
   text-overflow: ellipsis;
 }
 
-.card{
+.card {
   padding: 7px;
-  display:flex;
-  flex:1;
+  display: flex;
+  flex: 1;
   border-radius: 5px;
   background-color: rgb(30 41 59);
   gap: 10px;
@@ -62,22 +62,22 @@
   max-height: 800px;
 }
 
-.cards{
+.cards {
   overflow: none;
   padding: 10px;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 50%);
   gap: 10px;
-  flex:1;
+  flex: 1;
   min-width: 800px;
   justify-content: center;
 }
 
-.footer{
-  gap:2px;
-  border-top:rgba(209,213,219,0.6) dashed 2px;
-  display:flex;
-  flex-direction:row;
+.footer {
+  gap: 2px;
+  border-top: rgba(209, 213, 219, 0.6) dashed 2px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }

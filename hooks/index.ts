@@ -1,1 +1,1 @@
-export {useLaunchData} from "./useLaunchData"
+export { useLaunchData } from './useLaunchData';

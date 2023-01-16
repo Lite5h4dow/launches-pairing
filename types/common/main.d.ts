@@ -1,4 +1,4 @@
-interface Launch{
+interface Launch {
   fairings: Fairings;
   links: Links;
   static_fire_date_utc: Date;
@@ -12,7 +12,7 @@ interface Launch{
   crew: Array<unknown>;
   ships: Array<string>;
   capsules: Array<unknown>;
-  payloads: Array<String>|Array<PayloadData>;
+  payloads: Array<String> | Array<PayloadData>;
   launchpad: string;
   flight_number: number;
   name: string;
@@ -28,14 +28,14 @@ interface Launch{
   id: string;
 }
 
-interface Fairings{
+interface Fairings {
   reused: boolean;
   recovery_attempt: boolean;
   recovered: boolean;
   ships: Array<string>;
 }
 
-interface Links{
+interface Links {
   patch: {
     small: string;
     large: string;
@@ -57,7 +57,7 @@ interface Links{
   wikipedia: string;
 }
 
-interface Core{
+interface Core {
   core: string;
   flight: number;
   gridfins: boolean;
@@ -67,10 +67,10 @@ interface Core{
   landing_success: boolean;
   landing_type: string;
   landpad: string;
-  serial:undefined|string;
+  serial: undefined | string;
 }
 
-interface CoreData{
+interface CoreData {
   block: number;
   reuse_count: number;
   rtls_attempts: number;
@@ -81,13 +81,13 @@ interface CoreData{
   launches: Array<string>;
   serial: string;
   status: string;
-  id:string;
+  id: string;
 }
 
-interface PayloadData{
+interface PayloadData {
   name: string;
   type: string;
   reused: boolean;
   launch: string;
-  id:string;
+  id: string;
 }

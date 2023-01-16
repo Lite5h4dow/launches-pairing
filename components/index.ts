@@ -1,1 +1,1 @@
-export { Launches } from "./launches/launches"
+export { Launches } from './launches/launches';
